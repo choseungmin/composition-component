@@ -1,4 +1,4 @@
-![이미지](/Users/seungmin/workspace/playground/composition-component/public/screenshot01.png)
+![이미지](./public/screenshot01.png)
 
 ```javascript
 function App() {
