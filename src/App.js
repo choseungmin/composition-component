@@ -1,25 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+import { Dialog } from "./component/Dialog";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+        <Dialog isOpen>
+          <Dialog.Title>title</Dialog.Title>
+          <Dialog.CheckBox>체크박스</Dialog.CheckBox>
+          <Dialog.CheckBox>체크박스</Dialog.CheckBox>
+          <Dialog.LabelButton>LabelButton</Dialog.LabelButton>
+        </Dialog>
     </div>
   );
 }
 
 export default App;
+
